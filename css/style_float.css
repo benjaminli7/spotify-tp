@@ -1,0 +1,195 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+}
+
+/* HEADER */
+
+header{
+	background-color: #0099EE;
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
+#logo-link{
+	float: left;
+	line-height: 0;
+}
+
+#logo-link img{
+	width: 140px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+header nav li{
+	float : left;
+}
+
+header nav a{
+	padding: 1em;
+	display: block;
+}
+
+
+
+.clearfix::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.clearfix::before{
+	content: '';
+	display: table;
+}
+
+
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+	position: relative;
+}
+
+.vertically-centered{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+/* SECTION 1 */
+
+
+
+#section1{
+	background-color: #0078bb;
+	height: 640px;
+	padding-bottom: 20px;
+}
+
+#section1 .container{
+	height: 100%;
+}
+
+#section1 small{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+/* SECTION 2 */
+
+#section2{
+	background-color: #008cda;
+}
+
+#section2 .container > h1{
+	text-align: center;
+}
+
+.benefit{
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 30px;
+}
+
+
+/* SECTION 3 */
+
+#section3{
+	background-color: #006ba6;
+	padding-bottom: 20px;
+}
+
+#section3 .container > h1{
+	text-align: center;
+}
+
+
+.offers-container{
+	width: 70%;
+	margin: auto;
+}
+
+.offer{
+	float: left;
+	width: 48%;
+}
+
+.offer:first-child{
+	margin-right: 4%;
+}
+
+#section3 small{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+
+#section3 .container{
+	padding-bottom: 60px;
+}
+
+footer nav{
+	float: left;
+}
+
+footer nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer nav li{
+	float: left;
+}
+
+
+footer nav a{
+	display: block;
+	padding: 1em;
+}
+
+footer small{
+	float: right;
+	right: 0;
+}
+
+footer{
+	padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

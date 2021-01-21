@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Spotify</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body class="no-transition">
+		
+		<header>
+			<div class="container">
+				<a href="#" id="logo-link">
+					<img src="images/logo.svg" alt="Spotify">
+				</a>
+				<button id="menu-button" onclick="toggleMenu()">Menu</button>
+				<nav id="main-nav">
+					<ul>
+						<li><a href="#">Premium</a></li>
+						<li><a href="#">Aide</a></li>
+						<li><a href="#">Télécharger</a></li>
+						<li><a>|</a></li>
+						<li><a href="#">S'inscrire</a></li>
+						<li><a href="#">Se connecter</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<section id="section1">
+				<div class="container">
+					<div>
+						<h1>Obtenez 3 mois pour 0,99 €</h1>
+						<h2>Seulement 9,99 € /par mois ensuite. Annulez à tout moment.</h2>
+						<a href="#" class="cta-button cta-button--blue">Démarrer Spotify Premium</a>
+					</div>
+					<small>
+						Offre réservée aux utilisateurs n'ayant jamais essayé Spotify Premium. Offre valable jusqu'au 31 déc. 2018. 
+						<br><a href="#">Offre soumise à conditions.</a>
+					</small>
+				</div>
+			</section>
+
+			<section id="section2">
+				<div class="container">
+					<h1>Pourquoi passer à Spotify premium ?</h1>
+					<section class="benefit-container">
+						<article>
+							<img src="images/benefit1.png" alt="Bénéfice 1">
+							<h1>Téléchargez votre musique.</h1>
+							<h2>Profitez-en même sans connexion internet.</h2>
+						</article>
+						<article>
+							<img src="images/benefit2.png" alt="Bénéfice 2">
+							<h1>Écoutez sans pubs.</h1>
+							<h2>Profitez de vos titres sans interruption.</h2>
+						</article>
+						<article>
+							<img src="images/benefit3.png" alt="Bénéfice 3">
+							<h1>Écoutez les titres de votre choix.</h1>
+							<h2>Même sur votre mobile.</h2>
+						</article>
+						<article>
+							<img src="images/benefit4.png" alt="Bénéfice 4">
+							<h1>Zapping à l'infini.</h1>
+							<h2>Cliquez simplement sur suivant.</h2>
+						</article>
+					</section>
+				</div>
+			</section>
+
+			<section id="section3">
+				<div class="container">
+					<h1>Écoutez gratuitement ou abonnez-vous à Spotify Premium.</h1>
+					<section class="offers-container">
+						<article>
+							<h1>Spotify Free</h1>
+							<h2>0,00 € <small>/ mois</small></h2>
+							<ul>
+								<li>Lecture aléatoire</li>
+								<li class="disabled">Sans interruptions</li>
+								<li class="disabled">Zappez les titres sans limite</li>
+								<li class="disabled">Écouter hors connexion</li>
+								<li class="disabled">Écoutez les titres de votre choix</li>
+								<li class="disabled">Son de qualité supérieure</li>
+							</ul>
+							<a href="#" class="cta-button cta-button--white">Démarrer</a>
+						</article>
+						<article>
+							<h1>Spotify Premium</h1>
+							<h2>3 mois pour 0,99 €</h2>
+							<ul>
+								<li>Lecture aléatoire</li>
+								<li>Sans interruptions</li>
+								<li>Zappez les titres sans limite</li>
+								<li>Écouter hors connexion</li>
+								<li>Écoutez les titres de votre choix</li>
+								<li>Son de qualité supérieure</li>
+							</ul>
+							<a href="#" class="cta-button cta-button--green">Démarrer spotify premium</a>
+						</article>
+					</section>
+					<small>
+						Seulement 9,99 € /par mois ensuite. Offre réservée aux utilisateurs n'ayant jamais essayé Spotify Premium. Offre valable jusqu'au 31 déc. 2018. Offre soumise à conditions.
+
+					</small>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a href="">Légal</a></li>
+						<li><a href="">Cookies</a></li>
+						<li><a href="">À propos des pubs</a></li>
+					</ul>
+				</nav>
+				<small>
+					© 2020  Spotify AB
+				</small>
+			</div>
+		</footer>
+
+		<script type="text/javascript">
+			document.getElementsByTagName('body')[0].classList.remove('no-transition');
+			
+			function toggleMenu(){
+				var element = document.getElementById('main-nav');
+				if(element.classList.contains('open')){
+					element.classList.remove('open');
+				}else{
+					element.classList.add('open');
+				}
+			}
+		</script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
